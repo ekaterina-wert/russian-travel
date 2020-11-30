@@ -1,0 +1,21 @@
+.place__link {
+    margin: 0;
+    width: 456px;
+    min-height: 22px;
+    max-width: max-content;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    text-decoration: none;
+    border-bottom: 0.7px solid;
+    color: #FFFFFF;
+    grid-column: 2;
+    grid-row: 1;
+    align-self: end;
+}
+
+@media screen and (max-width: 740px) {
+    .place__link {
+        display: none;
+    }
+}

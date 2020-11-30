@@ -1,0 +1,6 @@
+.photo-grid__photo {
+    margin: 0;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}

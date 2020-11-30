@@ -1,0 +1,32 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1279px) {
+    .places {
+        padding: 85px 148px 0;
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1279px) {
+    .places {
+        /* padding: 92px 48px 0; подгонка по пиксельперфект */
+        padding: 86px 50px 0;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 780px) {
+    .places {
+        padding: 86px 24px 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .places {
+        padding: 64px 0 0;
+    }
+}

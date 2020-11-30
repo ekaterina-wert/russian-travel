@@ -1,0 +1,9 @@
+    .place__text-container {
+        align-self: start;
+    }
+    
+    @media screen and (max-width: 350px) {
+        .place__text-container {
+            padding: 0 16px;
+        }
+    }

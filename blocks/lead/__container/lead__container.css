@@ -1,0 +1,15 @@
+.lead__container {
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 780px) {
+    .lead__image {
+        min-width: 672px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .lead__image {
+        width: 100%;
+    }
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width: 530px) {
+    .place__text_screen_wide {
+        display: none;
+    }
+}
