@@ -37,15 +37,3 @@
         min-height: 740px;
     }
 }
-
-@media screen and (min-width: 350px) and (max-width: 1279px) {
-    .cover__link {
-        height: 62.5vw;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .cover__link {
-        height: 63.8vw;
-    }
-}
