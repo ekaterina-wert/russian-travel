@@ -10,6 +10,8 @@
     background-image: url("../../../images/cover__background.jpg");
     background-size: cover;
     background-position: center;
+    min-width: 320px;
+    min-height: 200px;
     z-index: 1;
 }
 
@@ -31,24 +33,18 @@
 
 @media screen and (min-width: 1279px) {
     .cover__link {
-        min-height: 57.8vw;
+        height: 57.8vw;
     }
 }
 
-@media screen and (min-width: 780px) and (max-width: 1279px) {
+@media screen and (min-width: 350px) and (max-width: 1279px) {
     .cover__link {
-        min-height: 62.5vw;
-    }
-}
-
-@media screen and (min-width: 350px) and (max-width: 780px) {
-    .cover__link {
-        min-height: 62.5vw;
+        height: 62.5vw;
     }
 }
 
 @media screen and (max-width: 350px) {
     .cover__link {
-        min-height: 63.8vw;
+        height: 63.8vw;
     }
 }
